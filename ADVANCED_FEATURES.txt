@@ -1,0 +1,13 @@
+
+Melissa Neisen
+Nicholas Benish
+
+List of advanced features we implemented:
+
+1. Server Pinging and Disconnect clients
+		We implemented this feature but it really screwed up our shell
+		tests, so we have the code available within bl-server.c
+		commented out so our tests will pass. There seems to be a 
+		timing/output issue with the tests. 
+2. Binary Server Log File (with bl-showlog.c)
+		with Makefile target bl-showlog
